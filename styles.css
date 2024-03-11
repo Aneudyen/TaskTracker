@@ -4,11 +4,12 @@ body{
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: #f4f4f4;
     animation-name: example;
     animation-duration: 20s;
     animation-iteration-count: infinite;
-}
+    text-align: center;
+}/*background color and the body */
 @keyframes example {
     0%   {background-color: red;}
     25%  {background-color: yellow;}
@@ -27,6 +28,7 @@ body{
 
 form{
     margin-bottom: 20px;
+    text-align: center;
 }
 
 button[type="submit"] {
