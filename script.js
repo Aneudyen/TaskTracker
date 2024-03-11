@@ -10,8 +10,8 @@ let task = [];
 
 // Section 3: Cached Element References
 
-const taskForm = null;
-const taskTable= null;
+let taskForm = null;
+let taskTable= null;
 
 taskForm = document.getElementById('taskForm')
 taskTable = document.getElementById('taskTable')
