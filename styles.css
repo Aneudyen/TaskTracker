@@ -4,7 +4,7 @@ body{
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: #f4f4f4;
+    background-color: #f4f4f4;
     animation-name: example;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -38,7 +38,7 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: hsl(213, 73%, 40%);
-}
+} 
 
 button[type="reset"] {
   text-decoration: underline;
